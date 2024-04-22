@@ -10,8 +10,9 @@
 .nav-right {
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 500;
   font-style: normal;
+  font-size: 18px;
 }
 
 .logo{
@@ -55,7 +56,7 @@
     background-color: rgba(17, 17, 17, 0.8);
     padding: 30px;
     border-radius: 10px;
-    top: 350px;
+    top: 55%;
     left: 150px;
     font-family: 'Dosis';
 }
@@ -65,5 +66,5 @@
 }
 
 .h3-color{
-    color: rgb(213, 85, 11);
+    color: rgb(247, 109, 29);
 }

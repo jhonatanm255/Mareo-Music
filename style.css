@@ -1,5 +1,6 @@
 @import "banner.css";
 @import "main.css";
+@import "responsive.css";
 
 body{
     background-color: rgb(24, 24, 24);

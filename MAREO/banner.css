@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-around;
     padding: 15px 0;
-    background-color: rgba(17, 17, 17, 0.829);
+    background-color: rgba(17, 17, 17, 0.8);
     position: absolute;
     z-index: 10;
     width: 100%;
@@ -46,4 +46,24 @@
     width: 100%;
     mask-image: linear-gradient(rgb(0, 0, 0) 85%,
     transparent);
+}
+
+.title{
+    width: 40%;
+    color: aliceblue;
+    position: absolute;
+    background-color: rgba(17, 17, 17, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    top: 350px;
+    left: 150px;
+    font-family: 'Dosis';
+}
+
+.h1-title{
+    margin-bottom: 20px;
+}
+
+.h3-color{
+    color: rgb(213, 85, 11);
 }

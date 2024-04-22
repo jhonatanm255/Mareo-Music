@@ -1,0 +1,37 @@
+.main{
+    display: block;
+    
+}
+
+.cards{
+    margin: 0 auto;
+    top: 650px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.card{
+    margin: auto;
+    
+    width: 33%;
+    justify-content: center;
+    
+}
+
+.img-card{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-cards{
+
+    font-family: "Dosis";
+    color: aliceblue;
+    text-align: center;
+}

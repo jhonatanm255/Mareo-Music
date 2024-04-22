@@ -1,0 +1,49 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-right {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.logo{
+    font-family: 'Dosis';
+    color: aliceblue;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: rgba(17, 17, 17, 0.829);
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.nav-right{
+    display: flex;
+    list-style: none;
+}
+
+.nav-right li a{
+    margin: auto;
+    text-decoration: none;
+    margin-right: 40px;
+    color: aliceblue;
+}
+
+.banner-img{
+    position: relative;
+    width: 100%;
+    mask-image: linear-gradient(rgb(0, 0, 0) 85%,
+    transparent);
+}

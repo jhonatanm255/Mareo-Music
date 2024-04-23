@@ -53,10 +53,10 @@
     width: 55%;
     color: aliceblue;
     position: absolute;
-    background-color: rgba(17, 17, 17, 0.8);
+    background-color: rgba(17, 17, 17, 0.6);
     padding: 30px;
     border-radius: 10px;
-    top: 200px;
+    top: 230px;
     left: 150px;
     font-family: 'Dosis';
 }

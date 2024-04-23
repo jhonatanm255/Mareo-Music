@@ -2,7 +2,13 @@
 @import "main.css";
 @import "responsive.css";
 
-body{
-    background-color: rgb(24, 24, 24);
-}
+/* body{
+    background-image: url(/img/5442676.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
 
+body{
+    background-color: black;
+}

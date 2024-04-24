@@ -1,6 +1,69 @@
-@media screen and (width: 768px) {
+
+@media screen and (max-width: 400px) {
+
+    body{
+        width: 100%;
+    }
+
+    .nav-right {
+        font-size: 16px;
+      }
+
+      .nav-right{
+        display: none;
+    }
+
     .title{
         width: 70%;
-        top: 35%;
+        color: aliceblue;
+        position: absolute;
+        background-color: rgba(17, 17, 17, 0.6);
+        padding: 10px;
+        border-radius: 10px;
+        top: 12%;
+        left: 3%;
+        font-family: 'Dosis';
+        font-size: 14px;
     }
+
+    .h1-title{
+        font-size: 18px;
+        margin-bottom: 4px;
+        font-weight: 600;
+    }
+
+    /* MAIN CSS CUSTOM */
+
+    .main{
+        width: 100%;
+    }
+
+    .cards{
+        margin: 0 auto;
+        top: 650px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px; 
+        
 }
+
+    .title-cards{
+        width: 100%;
+        font-family: "Dosis";
+        color: aliceblue;
+        margin-bottom: 15px;
+        font-size: 20px;
+        background-color: rgba(17, 17, 17, 0.8);
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+
+    .footer-cards{
+        display: block;
+    }
+
+   .btn{
+    margin: 10px auto;
+    
+   }}

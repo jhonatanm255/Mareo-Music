@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.content{
+    position: relative;
+}
+
 
 .nav-right {
   font-family: "Dosis", sans-serif;
@@ -25,7 +29,6 @@
     justify-content: space-around;
     padding: 10px 0;
     background-color: rgba(17, 17, 17, 0.8);
-    position: absolute;
     z-index: 10;
     width: 100%;
 }
@@ -45,24 +48,24 @@
 .banner-img{
     position: relative;
     width: 100%;
-    mask-image: linear-gradient(rgb(0, 0, 0) 85%,
+    mask-image: linear-gradient(rgb(0, 0, 0) 80%,
     transparent);
 }
 
 .title{
-    width: 55%;
+    width: auto;
     color: aliceblue;
     position: absolute;
     background-color: rgba(17, 17, 17, 0.6);
     padding: 30px;
     border-radius: 10px;
-    top: 230px;
-    left: 150px;
+    top: 35%;
+    left: 10%;
     font-family: 'Dosis';
 }
 
 .h1-title{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .h3-color{

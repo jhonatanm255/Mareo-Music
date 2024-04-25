@@ -33,7 +33,7 @@
 }
 
 .card:hover{
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     border: solid 1px rgb(247, 109, 29);
 
 }

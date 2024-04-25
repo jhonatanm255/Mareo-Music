@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 
     body{
         width: 100%;
@@ -7,20 +7,35 @@
 
     .nav-right {
         font-size: 16px;
-      }
+        margin-top: 15px;
+    }
 
-      .nav-right{
+    .nav-right{
         display: none;
     }
 
+    .show{
+        display: block;
+    }
+
+    .nav-right li{
+        padding: 10px;
+        border-top: solid 1px rgb(56, 56, 56);
+    }
+
+    .nav-right li a{
+       display: flex;
+       justify-content: center;
+    }
+
     .title{
-        width: 70%;
+        width: 80%;
         color: aliceblue;
         position: absolute;
         background-color: rgba(17, 17, 17, 0.6);
         padding: 10px;
         border-radius: 10px;
-        top: 12%;
+        top: 5%;
         left: 3%;
         font-family: 'Dosis';
         font-size: 14px;
@@ -30,6 +45,16 @@
         font-size: 18px;
         margin-bottom: 4px;
         font-weight: 600;
+    }
+
+    .head{
+        display: block;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     /* MAIN CSS CUSTOM */
@@ -42,11 +67,15 @@
         margin: 0 auto;
         top: 650px;
         width: 100%;
-        display: flex;
+        display: block;
         justify-content: center;
-        gap: 20px; 
-        
-}
+        gap: 20px;    
+    }
+
+    .card{
+        width: 100%;
+        margin-bottom: 25px;
+    }
 
     .title-cards{
         width: 100%;
@@ -65,5 +94,12 @@
 
    .btn{
     margin: 10px auto;
-    
-   }}
+   }
+
+    .btn-hamburguer{
+        color: aliceblue;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+    }    
+}

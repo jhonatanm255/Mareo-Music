@@ -71,3 +71,7 @@
 .h3-color{
     color: rgb(247, 109, 29);
 }
+
+.btn-hamburguer{
+    display: none;
+}    

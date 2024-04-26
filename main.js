@@ -8,7 +8,7 @@ enlaces.forEach(enlace => {
         if (enlaceAnterior) {
             enlaceAnterior.style.color = '';
         }
-        enlace.style.color = 'rgb(247, 109, 29)'; 
+        // enlace.style.border-botton = 'rgb(247, 109, 29)'; 
         enlaceAnterior = enlace; 
     });
 });

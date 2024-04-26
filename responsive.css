@@ -32,7 +32,7 @@
         background-color: rgba(17, 17, 17, 0.6);
         padding: 10px;
         border-radius: 10px;
-        top: 45%;
+        top: 5%;
         left: 3%;
         font-family: 'Dosis';
         font-size: 14px;
@@ -68,8 +68,7 @@
         margin: 0 auto;
         top: 650px;
         width: 100%;
-        display: grid;
-        grid-template-columns: auto auto;
+        display: block;
         justify-content: center;
         gap: 20px;    
     }

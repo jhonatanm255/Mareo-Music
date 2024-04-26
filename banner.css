@@ -10,16 +10,17 @@
     position: relative;
 }
 
-
 .nav-right {
   font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
 }
 
 .logo{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
     font-family: 'Dosis';
     color: aliceblue;
 }
@@ -29,8 +30,12 @@
     justify-content: space-around;
     padding: 10px 0;
     background-color: rgba(17, 17, 17, 0.8);
-    z-index: 10;
+    /* z-index: 10; */
     width: 100%;
+}
+
+.header{
+    position: relative;
 }
 
 .nav-right{
@@ -39,10 +44,18 @@
 }
 
 .nav-right li a{
+    display: flex;
     margin: auto;
     text-decoration: none;
-    margin-right: 40px;
     color: aliceblue;
+    padding: 10px 30px;
+    transition: all ease .2s;
+}
+
+.nav-right li a:hover{
+    background-color:rgb(247, 109, 29);
+    padding: 10px 30px;
+    border-radius: 5px;
 }
 
 .banner-img{
@@ -59,7 +72,7 @@
     background-color: rgba(17, 17, 17, 0.6);
     padding: 30px;
     border-radius: 10px;
-    top: 35%;
+    top: 45%;
     left: 10%;
     font-family: 'Dosis';
 }
@@ -75,3 +88,4 @@
 .btn-hamburguer{
     display: none;
 }    
+

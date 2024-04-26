@@ -29,13 +29,13 @@
     width: 33%;
     justify-content: center; 
     cursor: pointer;
-    transition: ease all 0.3s;
+    border: solid 1px transparent;
+    transition: all .3s;
 }
 
 .card:hover{
     /* transform: scale(1.05); */
     border: solid 1px rgb(247, 109, 29);
-
 }
 
 .border-left{

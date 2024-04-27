@@ -34,8 +34,7 @@
 }
 
 .card:hover{
-    /* transform: scale(1.05); */
-    border: solid 1px rgb(247, 109, 29);
+    transform: scale(1.05);
 }
 
 .border-left{
@@ -89,6 +88,11 @@
     background-color: rgb(247, 109, 29);
     color: aliceblue;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.btn:hover{
+    box-shadow: 0 0 16px rgb(247, 109, 29);
 }
 
 .text-white{

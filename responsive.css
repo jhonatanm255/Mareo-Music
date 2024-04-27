@@ -112,4 +112,17 @@
     .seccion{
         width: 100%;
     }
+
+
+    /* FOOTER */
+    .footer{
+        width: 100%;
+        display: block;
+    }
+
+    .footer-grid{
+        width: 100%;
+        display: block;
+        
+    }
 }

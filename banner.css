@@ -50,13 +50,15 @@
     text-decoration: none;
     color: aliceblue;
     padding: 10px 30px;
-    transition: all ease .2s;
+    /* transition: all .3s; */
 }
 
 .nav-right li a:hover{
     background-color:rgb(247, 109, 29);
     padding: 10px 30px;
     border-radius: 5px;
+    box-shadow: 0 0 32px rgb(247, 109, 29);
+    
 }
 
 .banner-img{

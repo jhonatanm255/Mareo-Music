@@ -33,7 +33,7 @@
         background-color: rgba(17, 17, 17, 0.6);
         padding: 10px;
         border-radius: 10px;
-        top: 45%;
+        top: 65%;
         left: 3%;
         font-family: 'Dosis';
         font-size: 14px;
@@ -51,6 +51,10 @@
 
     .header{
         position: relative;
+    }
+
+    .banner-img{
+        height: auto;
     }
 
     .nav-bar{
@@ -121,8 +125,34 @@
     }
 
     .footer-grid{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
+    }
+
+    .form{
+        display: flex;
         width: 100%;
+    }
+
+    .social-network{
         display: block;
-        
+        margin: auto;
+    }
+
+    .title-social{
+        width: 100%;
+    }
+
+    .bg-icon{
+        width: 35%;
+    }
+
+    .bg-email{
+        background-color: rgb(52, 52, 52);
+        width: 100%;
+        border-radius: 10px;
+        padding: 5px 10px;
     }
 }

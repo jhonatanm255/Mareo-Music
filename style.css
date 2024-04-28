@@ -11,6 +11,10 @@
     background-repeat: no-repeat;
 } */
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(0, 0, 0);
     font-family: 'Dosis';

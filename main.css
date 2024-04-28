@@ -78,6 +78,10 @@
     color: aliceblue;
 }
 
+.center{
+    text-align: center;
+}
+
 .btn{
     padding: 7px 45px;
     border-radius: 10px;

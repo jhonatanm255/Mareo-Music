@@ -9,6 +9,7 @@
 .footer-grid{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .form{
@@ -83,13 +84,16 @@
 
 .icon-social-network{
     margin-top: 40px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
     gap: 10px;
 }
 
 .bg-icon{
-    width: 40%;
+    width: 100%;
     padding: 5px 10px;
     display: flex;
     align-items: center;
@@ -99,13 +103,13 @@
 
 .bg-icon:hover{
     background-color: rgb(52, 52, 52);
-    width: 40%;
+    width: 100%;
     border-radius: 10px;
 }
 
 .bg-email{
     background-color: rgb(52, 52, 52);
-    width: 75%;
+    width: 100%;
     border-radius: 10px;
     padding: 5px 10px;
 }

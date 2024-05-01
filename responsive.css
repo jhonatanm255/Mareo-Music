@@ -26,6 +26,10 @@
        margin: 0;
     }
 
+    .logo{
+        margin-top: auto;
+    }
+
     .title{
         width: 80%;
         color: aliceblue;
@@ -54,7 +58,8 @@
     }
 
     .banner-img{
-        height: auto;
+        height: 250px;
+  
     }
 
     .nav-bar{

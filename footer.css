@@ -102,7 +102,7 @@
 }
 
 .bg-icon:hover{
-    background-color: rgb(52, 52, 52);
+    background-color: rgb(247, 109, 29);
     width: 100%;
     border-radius: 10px;
 }
@@ -112,6 +112,7 @@
     width: 100%;
     border-radius: 10px;
     padding: 5px 10px;
+    
 }
 
 
@@ -119,3 +120,13 @@
     font-weight: 200;
     font-size: 18px;
 }
+
+.logo-acatama{
+    width: 80px;
+    height: 60px;
+    margin: 10px 0 0 5px;
+}
+
+::placeholder {
+    font-style: italic;
+  }

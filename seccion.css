@@ -2,7 +2,9 @@
     /* display: block; */
     margin: auto;
     width: 80%;
-    /* background-color: rgba(17, 17, 17, 0.8); */
+    background-image: url(/img/japan-bg.jpg);
+    background-size: cover;
+    background-position: center center;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -14,10 +16,10 @@
     width: 100%;
     color: aliceblue;
     padding: 20px 0;
-    background-color: rgba(17, 17, 17, 0.8);
-    border-radius: 10px;
+    background-color: rgba(17, 17, 17, 0.7);
+    /* border-radius: 10px; */
     font-size: 1.2em;
-    margin-bottom: 5px; 
+    /* margin-bottom: 5px;  */
 }
 
 .seccion-2{
@@ -51,7 +53,7 @@
     align-items: center;
 }
 
-/* .seccion-2:hover{
-    background-color: rgb(247, 109, 29);
+/* .seccion-info:hover{
+    background-color: rgba(247, 109, 29, 0.1);
     cursor: pointer;
 } */

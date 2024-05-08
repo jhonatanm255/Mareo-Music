@@ -31,7 +31,7 @@
     }
 
     .title{
-        width: 80%;
+        width: 60%;
         color: aliceblue;
         position: absolute;
         background-color: rgba(17, 17, 17, 0.6);
@@ -159,6 +159,27 @@
         width: 100%;
         border-radius: 10px;
         padding: 5px 10px;
+    }
+
+    .seccion-2 .seccion-concert{
+        display: block;
+    }
+
+    .seccion .seccion-info{
+        display: block;
+    }
+
+    .seccion{
+        display: block;
+        margin: auto;
+        width: 50%;
+        background-image: url(/img/japan-bg.jpg);
+        background-size: 50%;
+        background-position: center center;
+    }
+
+    .btn-more a{
+        text-decoration: none;
     }
 }
 

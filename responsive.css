@@ -31,7 +31,7 @@
     }
 
     .title{
-        width: 60%;
+        width: 80%;
         color: aliceblue;
         position: absolute;
         background-color: rgba(17, 17, 17, 0.6);
@@ -167,15 +167,6 @@
 
     .seccion .seccion-info{
         display: block;
-    }
-
-    .seccion{
-        display: block;
-        margin: auto;
-        width: 50%;
-        background-image: url(/img/japan-bg.jpg);
-        background-size: 50%;
-        background-position: center center;
     }
 
     .btn-more a{

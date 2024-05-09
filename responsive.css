@@ -69,6 +69,10 @@
 
     /* MAIN CSS CUSTOM */
 
+    .main{
+        width: 100%;
+    }
+
     .content .seccion{
         width: 100%;
     }

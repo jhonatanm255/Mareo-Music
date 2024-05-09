@@ -20,3 +20,8 @@ body{
     font-family: 'Dosis';
 }
 
+.content{
+    overflow: hidden;
+    width: 100%;
+}
+
